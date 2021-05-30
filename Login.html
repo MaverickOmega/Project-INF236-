@@ -53,21 +53,10 @@ border: 1px solid #5878ca;
 
 }
 
-.boxMagic{
-  table width="280";
-  cellspacing="1";
-  cellpadding="3";
-  border="0";
-  bgcolor="#1E679A";
-  font color="#FFFFFF";
-  face="arial, verdana, helvetica";
-  text align: center;
-}
-
 
 .cajaAutentica {
 top: 0px;
-width:700px;
+width:1000px;
 height:85px;
 padding:1px;
 border-radius:10px;
@@ -87,19 +76,13 @@ top: -40px;
 .logoStyle {
 width:120px;
 height:85px;
-padding:1px;
-border-radius:10px;
+border-radius:100px; 
 background: #F8F0D2;
 border: solid 3px #000;
-color: 5000;
-font-size:16px;
-font-family:Baskerville Old Face;
-text-align:justify;
 overflow:auto;
 color: #000;
 margin:50px;
 position: relative;
-right: -20px;
 top: -40px;
 }
 
@@ -125,7 +108,7 @@ top: -40px;
     width: 90%;
     margin: auto;
     overflow: hidden;
-    margin-top: 20px;
+    margin-top: -40px;
     /*display: flex;
     justify-content: center;*/
 }
@@ -136,13 +119,19 @@ top: -40px;
     width: 500px;
     float: left;
     height: 300px;
-    background-color: blue;
+    background-color: #CFB3F5;
+    margin: 5px;
+    border: solid 3px #000;
+    color: #000;
 }
 #second {
     width: 500px;
     float: left;
     height: 300px;
-    background-color: green;
+    background-color: #91F5B6;
+    margin: 5px;
+    border: solid 3px #000;
+    color: #000;
 }
 #clear {
     clear: both;
@@ -196,12 +185,12 @@ body {
 <!–- Poner la fecha inicial-–>
 Fecha:
 <script>
-	var date = new Date();
-  document.write(date);
+  var date = new Date();
+  document.write(date); 
 </script>
 
 <!–- Tablas de Bienvenido y Logo-–>
-<div class="cominar">
+<div class="combinar">
 <table>
     <tr>
         <td>
@@ -212,7 +201,7 @@ Fecha:
         </td>
         <td>
             <div class = "logoStyle">
-                <div style="font-size:24px; padding:5px; text-align:center;"><img src="https://noticias.usm.cl/wp-content//uploads/2019/12/USM.jpg" width="100" height="50"></div>
+                <div style="font-size:24px; padding:5px; text-align:center;"><img src="https://noticias.usm.cl/wp-content//uploads/2019/12/USM.jpg" width="100" height="70"></div>
             </div>
         </td>
     </tr>
@@ -220,22 +209,22 @@ Fecha:
 </div>
 <!–- Menú principal-–>
 
-<div class="caja">
-<h1>"Menú Principal"<img src="https://html5-editor.net/images/smiley.png" alt="smiley" /></h1>
-</div>
-<br>
+
+
+<!–- LOGIN-–>
 
 <div class='container'>
   <div id="first">
-    <h1>Bienvenido</h1>
+    <h1><center>Bienvenido</h1></center>
     <h3>Esta plataforma ha sido diseñada para mejorar la comunicación escolar</h3>
+    <center><img src="https://appoderado.cl/imglanding/beneficio1.gif" width="150" height="150"></center>
   </div>
   <div id="second">
     <div class="row">
 
       <div class="main">
   
-        <h3>Please Log In</h3>
+        <h1>Para acceder a la plataforma ingrese sus datos</h1>
 
         <form>
           <div class="col-sm-12">
@@ -263,7 +252,7 @@ Fecha:
             </form>
           </div>
           <button type="submit" class="btn btn btn-primary">
-            Log In
+            Ingresar
           </button>
         </form>
       
