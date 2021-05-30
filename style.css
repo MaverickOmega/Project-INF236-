@@ -1,0 +1,92 @@
+body {
+    background-color: #B7F2FF;
+  }
+  
+  cuadrado {
+       width: 100px; 
+       height: 100px; 
+       background: #428bca;
+  }
+  
+  caja_inline {
+      display: inline-block;
+      width: 100px;
+  }
+  
+  
+  .caja { 
+  font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+  color: #ffffff; 
+  font-size: 18px; 
+  font-weight: 400px; 
+  text-align: center; 
+  background: #889ccf; 
+  margin: 0 0 0px; 
+  overflow: hidden; 
+  padding: 20px;
+  position: relative;
+  top: -40px;
+  border-radius: 35px 0px 35px 0px; 
+  -moz-border-radius: 35px 0px 35px 0px; 
+  -webkit-border-radius: 35px 0px 35px 0px; 
+  border: 2px solid #5878ca;
+  }
+  
+  
+  .cajaChica { 
+  font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+  color: #ffffff; 
+  font-size: 8px; 
+  font-weight: 200; 
+  text-align: center; 
+  background: #889ccf; 
+  margin: 0 0 40px; 
+  overflow: hidden; 
+  padding: 10px;
+  position: relative;
+  bottom: -60px;
+  border-radius: 35px 0px 35px 0px; 
+  -moz-border-radius: 35px 0px 35px 0px; 
+  -webkit-border-radius: 35px 0px 35px 0px; 
+  border: 1px solid #5878ca;
+  
+  }
+  
+  .cajaAutentica {
+  top: 0px;
+  width:1000px;
+  height:85px;
+  padding:1px;
+  border-radius:10px;
+  background: #F8F0D2;
+  border: solid 3px #000;
+  color: #000;
+  font-size:15px;
+  font-family:Baskerville Old Face;
+  text-align:center;
+  overflow:auto;
+  color: #000;
+  margin:1px;
+  position: relative;
+  top: -40px;
+  }
+  
+  .logoStyle {
+  width:240px;
+  height:240px;
+  border-radius:100px; 
+  background: #F8F0D2;
+  border: solid 3px #000;
+  overflow:auto;
+  color: #000;
+  margin:50px;
+  position: relative;
+  top: -40px;
+  }
+  
+  .btn-group {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+  }
+   
