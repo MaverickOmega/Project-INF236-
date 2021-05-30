@@ -89,4 +89,32 @@ body {
   flex-wrap: wrap;
   margin: 10px;
   }
+
+  
+ .logoStyle2 {
+    width:1100px;
+    height:500px;
+    border-radius:100px; 
+    background: #889ccf;
+    border: solid 3px #000;
+    overflow:auto;
+    color: #000;
+    margin:50px;
+    position: relative;
+    top: -40px;
+    }
+    
+  
+ .logoStyle3 {
+    width:1100px;
+    height:500px;
+    border-radius:100px; 
+    background: #B7F5B3;
+    border: solid 3px #000;
+    overflow:auto;
+    color: #000;
+    margin:50px;
+    position: relative;
+    top: -40px;
+    }
    
